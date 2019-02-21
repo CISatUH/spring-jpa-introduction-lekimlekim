@@ -7,5 +7,11 @@
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:$PROJECT_DIR$/mydb;AUTO_SERVER=true</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="spring-jpa-introduction-lekimlekim" uuid="0b7407b5-2db7-41e5-b237-9e083f1eca6f">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/../spring-jpa-introduction-lekimlekim;AUTO_SERVER=true</jdbc-url>
+    </data-source>
   </component>
 </project>
